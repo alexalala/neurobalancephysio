@@ -7,6 +7,8 @@ import social from "@/config/social.json";
 import { markdownify } from "@/lib/utils/textConverter";
 
 const { footer }: { footer: { name: string; url: string }[] } = menu;
+const d = new Date();
+let year = d.getFullYear();
 ---
 
 <footer class="bg-light dark:bg-darkmode-light">
@@ -16,7 +18,7 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
         <Logo />
       </div>
       <div class="mb-8 text-center lg:col-6 lg:mb-0">
-        <ul>
+        <!-- <ul>
           {
             footer.map((menu) => (
               <li class="m-3 inline-block">
@@ -24,7 +26,7 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
               </li>
             ))
           }
-        </ul>
+        </ul> -->
       </div>
       <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:mt-0 lg:text-right">
         <Social source={social.main} className="social-icons" />
@@ -36,6 +38,9 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
       class="container text-center text-text-light dark:text-darkmode-text-light"
     >
       <p set:html={markdownify(config.params.copyright)} />
+      <span
+        class="text-text-light dark:text-darkmode-text-light"
+        >&#169;{` ${year} `}</span>
     </div>
   </div>
 </footer>
