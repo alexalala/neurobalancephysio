@@ -2,29 +2,40 @@
 # Banner
 banner:
   title: "Welcome to Neuro Balance Physio"
-  content: "We provide high quality rehabilitation in the comfort of your own home/community visits. The first appointment will include a comprehensive assessment, including listening to what you would like to achieve from physiotherapy. We will then create a treatment plan tailored to your needs and goals, supporting you along your rehabilitation journey."
-  image: "/images/banner.png"
+  content: "We provide high quality rehabilitation in the comfort of your own home/community visits. The first appointment will include a comprehensive assessment, including listening to what you would like to achieve from physiotherapy.
+  <br>
+  <br>
+  We will then create a treatment plan tailored to your needs and goals, supporting you along your rehabilitation journey."
+  image: "/images/neurobalancephysio/hero.jpg"
   button:
     enable: false
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/astroplate"
+    label: ""
+    link: ""
 
 # Features
 features:
-  - title: "What's Included in Astroplate"
-    image: "/images/service-1.png"
-    content: "Astroplate is a comprehensive starter template that includes everything you need to get started with your Astro project. What's Included in Astroplate"
+  - title: "Conditions Treated"
+    image: "/images/neurobalancephysio/brain.jpg"
+    content: "<h6>Neurological Conditions</h6>
+    An individualised programme to assist in your rehabilitation.
+    <br>
+    <br>
+    Conditions including:"
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Astro and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+    - "Stroke"
+    - "Spinal Cord Injury"
+    - "Multiple Sclerosis"
+    - "Ataxia"
+    - "Parkinson’s Disease"
+    - "Traumatic Brain Injury"
+    - "Functional Neurological Disorder"
+    - "Gillian Barrie Syndrome"
+    - "And many more... please get in touch."
+
     button:
       enable: false
-      label: "Get Started Now"
-      link: "#"
+      label: ""
+      link: ""
 
   - title: "Discover the Key Features Of Astro"
     image: "/images/service-2.png"
