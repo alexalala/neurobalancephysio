@@ -12,12 +12,14 @@ banner:
     label: ""
     link: ""
 
+# Secondary Section Header
+sectionHeader: "Conditions Treated"
+
 # Features
 features:
-  - title: "Conditions Treated"
+  - title: "Neurological Conditions"
     image: "/images/neurobalancephysio/brain.jpg"
-    content: "<h6>Neurological Conditions</h6>
-    An individualised programme to assist in your rehabilitation.
+    content: "An individualised programme to assist in your rehabilitation.
     <br>
     <br>
     Conditions including:"

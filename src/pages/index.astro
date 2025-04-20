@@ -16,6 +16,7 @@ interface Homepage {
     image: string;
     button: Button;
   };
+  sectionHeader: string;
   features: Feature[];
 }
 
@@ -34,12 +35,14 @@ const call_to_action = (await getEntry(
   "call-to-action"
 )) as CollectionEntry<"ctaSection">;
 
-const { banner, features } = homepage.data as Homepage;
+const { banner, sectionHeader, features } = homepage.data as Homepage;
+
+console.log(sectionHeader);
 ---
 
 <Base>
   <!-- Banner -->
-  <section class="section pt-14">
+  <section class="section pt-14 pb-16">
     <div class="container">
       <div class="row justify-center">
         <div class="col-9 mb-8 text-center">
@@ -80,6 +83,12 @@ const { banner, features } = homepage.data as Homepage;
     </div>
   </section>
   <!-- /Banner -->
+
+  <!-- Secondary Section Header -->
+  <div class={"bg-gradient"}>
+    <h1 class="text-center pb-8 pt-8">{sectionHeader}</h1>
+  </div>
+  <!-- /Secondary Section Header -->
 
   <!-- Features -->
   {

@@ -91,6 +91,7 @@ const homepageCollection = defineCollection({
         link: z.string(),
       }),
     }),
+    sectionHeader: z.string(),
     features: z.array(
       z.object({
         title: z.string(),
