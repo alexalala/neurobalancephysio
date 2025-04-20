@@ -1,27 +1,27 @@
 ---
 enable: true
-title: "What Users Are Saying About Astroplate"
-description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Astroplate."
+title: "What Users Are Saying About Neuro Balance Physio"
+description: "Don't just take our word for it - hear from some of our satisfied clients!  Check out some of our testimonials below to see what others are saying about Neuro Balance Physio."
 
 # Testimonials
 testimonials:
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: ""
+    designation: ""
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Karina has helped me so much, to regain my confidence to walk outside again has been life changing. Her care goes above and beyond. She has been so patient and kind helping me achieve my goal."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: ""
+    designation: ""
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "My husband has had Parkinson’s Disease for many years and his walking was getting worse. Karina provided us with great information about Parkinson’s and exercises for him to do. His walking has improved and we feel much more aware about Parkinson’s and how to manage his symptoms."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: ""
+    designation: ""
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Thank you for your time and help over the past year. You have kept me motivated and on track with my recovery. I always feel listened to and you always make sure my rehabilitation suits me, thank you again."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: ""
+    designation: ""
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Please fill me :D"
 ---
