@@ -1,24 +1,19 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "FaFacebook",
-      "link": "https://www.facebook.com/"
+      "name": "acpin",
+      "image": "/images/neurobalancephysio/acpin.png",
+      "link": "https://www.acpin.net/"
     },
     {
-      "name": "twitter",
-      "icon": "FaTwitter",
-      "link": "https://twitter.com/"
+      "name": "hcpc registered",
+      "image": "/images/neurobalancephysio/hcpc.png",
+      "link": "https://www.hcpc-uk.org/"
     },
     {
-      "name": "github",
-      "icon": "FaGithub",
-      "link": "https://www.github.com/"
-    },
-    {
-      "name": "linkedin",
-      "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/"
+      "name": "Chartered Society of Physiotherapy",
+      "image": "/images/neurobalancephysio/csop.png",
+      "link": "https://www.csp.org.uk/"
     }
   ]
 }
